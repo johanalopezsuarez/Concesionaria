@@ -76,18 +76,15 @@ public class Concesionaria {
 	}
 		
 	public static void MostrarMasCaro(Vehiculo vehiculo) {
-		System.out.println("Vehiculo m·s caro: " + vehiculo.getMarca() + " " + vehiculo.getModelo());
+		System.out.println("Vehiculo m√°s caro: " + vehiculo.getMarca() + " " + vehiculo.getModelo());
 	}
 	
 	public static void MostrarMasBarato(Vehiculo vehiculo) {
-		System.out.println("Vehiculo m·s barato: " + vehiculo.getMarca() + " " + vehiculo.getModelo());
+		System.out.println("Vehiculo m√°s barato: " + vehiculo.getMarca() + " " + vehiculo.getModelo());
 	}
 	
 	public static void MostrarPrimeroContieneLetraY(char letra, Vehiculo vehiculo) {
-		System.out.println("Vehiculo que contiene en el modelo la letra: '" + letra + "': " 
-																			+ vehiculo.getMarca() + " " 
-																			+ vehiculo.getModelo() + " "
-																			+ vehiculo.mostrarPrecioConFormato());
+		System.out.println("Vehiculo que contiene en el modelo la letra: '" + letra + "': " + vehiculo.getMarca() + " " + vehiculo.getModelo() + " " + vehiculo.mostrarPrecioConFormato());
 	}
 	
 	public static void MostrarOrdenadoPrecioDescendente(ArrayList<Vehiculo> listaOrdenada) {
