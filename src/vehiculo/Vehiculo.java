@@ -28,6 +28,7 @@ public class Vehiculo {
 		
 	public String mostrarPrecioConFormato() {
 		return "$" + String.format(java.util.Locale.ITALY, "%,.2f", this.getPrecio());
+		
 	}
 	
 	
