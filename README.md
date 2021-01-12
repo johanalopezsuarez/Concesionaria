@@ -1,5 +1,4 @@
-# Concesionaria
-Ejercicio Trainee OnReady
+# Ejercicio Trainee OnReady
 
 Imaginemos una concesionaria de autos y motos.
 
